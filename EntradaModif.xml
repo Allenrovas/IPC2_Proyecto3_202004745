@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<solicitud_clasificacion>
+  <diccionario> 
+    <sentimientos_positivos> 
+      <palabra> bueno </palabra>
+	  <palabra> excelente </palabra>
+	  <palabra> cool </palabra>
+	  <palabra> satisfecho </palabra>
+	  <palabra> martavilloso </palabra>
+    </sentimientos_positivos>
+    <sentimientos_negativos> 
+      <palabra> malo </palabra>
+	  <palabra> pésimo </palabra>
+	  <palabra> triste </palabra>
+	  <palabra> molesto </palabra>
+	  <palabra> decepcionado </palabra>
+	  <palabra> enojo </palabra>
+	  <palabra> enojado </palabra>
+	  <palabra> frustrado </palabra>
+    </sentimientos_negativos>
+    <empresas_analizar> 
+      <empresa> 
+        <nombre> USAC </nombre>
+        <servicio nombre="inscripción">  
+		  <alias> inscribí </alias>
+		  <alias> inscrito </alias>
+		</servicio>
+		<servicio nombre="asignación">
+		  <alias> asignado </alias>
+        </servicio>
+        <servicio nombre="graduación"> </servicio>	
+	  </empresa>
+	  <empresa> 
+        <nombre> UMG </nombre>
+        <servicio nombre="inscripción">  
+		  <alias> inscribí </alias>
+		  <alias> inscrito </alias>
+		</servicio>
+		<servicio nombre="asignación">
+		  <alias> asignado </alias>
+        </servicio>
+        <servicio nombre="graduación"> </servicio>	
+	  </empresa>
+	  <empresa> 
+        <nombre> UVG </nombre>
+        <servicio nombre="inscripción">  
+		  <alias> inscribí </alias>
+		  <alias> inscrito </alias>
+		</servicio>
+		<servicio nombre="asignación">
+		  <alias> asignado </alias>
+        </servicio>
+        <servicio nombre="graduación"> </servicio>	
+	  </empresa>
+    </empresas_analizar>
+  </diccionario>
+  <lista_mensajes>
+    <mensaje> 
+      Lugar y fecha: Guatemala, 01/04/2021 15:01 Usuario: 
+	  map0001@usac.edu   Red social: Twitter
+	  El servicio en la USAC para inscripción fue muy bueno y me siento muy satisfecho.
+    </mensaje>
+	<mensaje> 
+      Lugar y fecha: Guatemala, 01/04/2021 15:01 Usuario: 
+	  map0009@usac.edu   Red social: Twitter
+	  Odio la asignacion en la uVg ya que su servicio de red de estudiantes es pEsÍMo.
+    </mensaje>
+	<mensaje> 
+      Lugar y fecha: Guatemala, 
+	  01/04/2022 15:20 Usuario: map0002@umg.edu   Red social: Facebook Hoy me inscribí 
+	  en la UMG, no encontré parqueo e inicié molesto mi graduación, luego tuve que hacer 
+	  cola y me indicaron que era la cola incorrecta, esto me enojó mucho y mejor me fui.
+    </mensaje>
+	<mensaje> 
+      Lugar y fecha : Guatemala, 01/04/2022 15:43 Usuario : map0003  
+	  Red social : WhatsApp
+	  Ya estoy inscrito en la USAC, el proceso fue muy bueno, pero al salir, 
+	  mi carro tenía pinchadas las llantas, esto me preocupó 
+	  y me fui decepcionado.
+    </mensaje>
+	<mensaje> 
+      Lugar y fecha : Guatemala, 01/04/2022 15:43 Usuario : map0008  
+	  Red social : WhatsApp
+	  Me gusta la USAC
+    </mensaje>
+	<mensaje> 
+		Lugar y fecha : Guatemala, 01/05/2022 15:43 Usuario : map1008  
+		Red social : Linkedin
+		Hoy gano mi equipo :D
+	</mensaje>
+  </lista_mensajes>
+</solicitud_clasificacion>

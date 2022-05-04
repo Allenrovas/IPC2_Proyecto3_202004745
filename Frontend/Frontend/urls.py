@@ -19,4 +19,4 @@ from django.urls import path
 from web import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),path('', views.index),]
+    path('admin/', admin.site.urls),path('', views.index),path('ayuda/', views.ayuda),]

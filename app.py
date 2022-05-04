@@ -18,6 +18,21 @@ def rutaPost():
 
 
 
+@app.route('/Mensajes', methods=['POST'])
+def cargaMensajes():
+
+
+    
+
+    entrada = request.data.decode('utf-8')
+    print(entrada)
+    xmlentrada = ET.fromstring(entrada)
+
+
+    return jsonify({'Mensaje':'Se agregaron las facturas exitosamente',})
+
+
+
 
 if __name__ == "__main__":
     app.run( port=5000, debug=True)
