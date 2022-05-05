@@ -50,7 +50,7 @@
 		<servicio nombre="asignación">
 		  <alias> asignado </alias>
         </servicio>
-        <servicio nombre="graduación"> </servicio>	
+        <servicio nombre="graduación"></servicio>	
 	  </empresa>
     </empresas_analizar>
   </diccionario>
