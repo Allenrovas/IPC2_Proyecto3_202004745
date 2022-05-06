@@ -123,8 +123,8 @@
     <div class="botones">
               <button onclick="envio()" style="width: 150px;" class="btn btn-primary">Entrada</button>
               <button onclick="recibir()" style="width: 150px;" class="btn btn-primary">Salida</button>
-              <a href="../resumen1/" style="width: 150px;" class="btn btn-primary">Resumen 1</button>
-              <a href="../resumen2/" style="width: 150px;" class="btn btn-primary">Resumen 2</button>
+              <a href=".." style="width: 150px;" class="btn btn-primary">Mensaje Prueba</button>
+              <a href=".." style="width: 150px;" class="btn btn-primary">Peticiones</button>
               <a href="../ayuda/" style="width: 150px;" class="btn btn-primary">Ayuda</a>
               <button  style="width: 150px;" class="btn btn-primary">Reset</button>
     </div>
@@ -168,7 +168,7 @@ reader.readAsText(fileInp.files[0], 'UTF-8')
 });
 
 
-function envio() {
+/*function envio() {
   fetch('http://localhost:5000/Mensajes', {
       method: 'POST',
       body: text.value,
@@ -187,7 +187,7 @@ function envio() {
       alert(response.Mensaje)
     })
 
-}
+}*/
 
 
 </script>
@@ -206,7 +206,7 @@ reader.readAsText(fileInp.files[0], 'UTF-8')
 });
 */
 
-function recibir() {
+/*function recibir() {
   fetch('http://localhost:3000/Facturas', {
       method: 'GET',
       headers: {
@@ -220,7 +220,7 @@ function recibir() {
       alert("Ocurrio un error, ver la consola")
     })
     .then(response => {
-      /*console.log(response);*/
+      console.log(response);
       var resp = response
       console.log(resp);
 
@@ -228,7 +228,7 @@ function recibir() {
 
     })
 
-    }
+    }*/ 
 
 
 
